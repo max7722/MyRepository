@@ -1,0 +1,111 @@
+/*
+  Автор: Авдеев Марк.
+  e-mail: mark-avdeev@mail.ru
+  blog: lifeexample.ru
+*/
+body {
+font: 12px Verdana,Serif,Arial;
+line-height: 18px;
+color: #383838;
+}
+
+h1{
+font-family: Georgia, serif;
+font-style:italic;
+font-size: 12px;
+}
+#wrapper{
+	width:920px;
+	margin:0 auto;
+}
+
+#header {
+	height:100px;
+
+}
+
+#header .logo{
+float:left;
+
+width:400px;
+height:70px;
+}
+
+#header .menu{
+clear:both;
+float:right;
+
+width:50%;
+height:30px;
+
+}
+
+
+#content {	
+	width:100%;
+	float:left;
+	min-height: 440px;
+}
+
+
+#header .menu li{
+	float:left;
+	margin-right: 40px;
+	margin-top: -10px;
+	list-style:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+}
+
+
+
+#footer{
+	clear: both;
+	float:left;
+	height:60px;
+	width:100%;
+	text-align:right;
+}
+	
+.product{
+	float:left;
+	border: 1px solid gray;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+	text-align:center;
+	padding: 10px;
+	width:150px;
+	height:150px;
+	margin: 10px;
+}
+.product_buy {
+margin-top: 5px;
+}
+.product_image img{
+	border: 0;
+	width:80px;
+	height:80px;
+}
+.product_buy a{
+		padding: 4px;
+		background:orange;	
+		border-radius: 10px; 
+		-moz-border-radius: 10px; 
+		-webkit-border-radius: 10px;  
+		text-decoration: none; 
+}
+
+.product_buy a:hover{
+		color:white;
+}
+
+
+.product h2{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14px;
+	color: green;
+	margin: 0px;
+}
