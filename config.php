@@ -1,5 +1,5 @@
 <?php 
-Error_Reporting(E_ALL & ~E_NOTICE);
+//Error_Reporting(E_ALL & ~E_NOTICE);
  function __autoload ($class_name)
  {
 	$path = str_replace("_", "/", $class_name);
